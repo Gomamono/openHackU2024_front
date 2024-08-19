@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
 import Login from './Login';
-import LoggedIn from './loggedin';
+import LoggedIn from './loggedizn';
 import { getTokenFromUrl } from './hooks/Spotify';
 
 // トークンの型を定義
