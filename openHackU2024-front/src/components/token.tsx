@@ -1,8 +1,8 @@
 // src/components/SpotifyAuth.tsx
 
 import React, { useState, useEffect } from 'react';
-import Login from '../Login';
-import LoggedIn from '../LoggedIn';
+import Login from './Login';
+import LoggedIn from './LoggedIn'
 import { getTokenFromUrl } from '../hooks/Spotify';
 
 // トークンの型を定義
