@@ -9,7 +9,7 @@ export function PasswordInput(Props) {
             onChange={onChange}
             value={todoText}
           />
-          <button onClick={onClickAdd}>追加</button>
+          <button onClick={onClickAdd}>共有する</button>
         </div>
       </>
     );
