@@ -1,5 +1,5 @@
-export function passwordInput(props) {
-    const { todoText, onChange, onClickAdd, disabled } = props;
+export function PasswordInput(Props) {
+    const { todoText, onChange, onClickAdd, disabled } = Props;
     return (
       <>
         <div className="input-area">
@@ -15,4 +15,4 @@ export function passwordInput(props) {
     );
   }
 
-  export default passwordInput;
+  export default PasswordInput;
