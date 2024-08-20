@@ -1,5 +1,5 @@
 import React from 'react'
-import { accessUrl } from "./hooks/Spotify";
+import { accessUrl } from "../hooks/Spotify";
 
 function Login() {
   return (
