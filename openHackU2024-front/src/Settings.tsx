@@ -1,5 +1,4 @@
 import React from 'react';
-import MenuBar from './components/menuBar';
 
 const Settings: React.FC = () => {
   return (
@@ -7,7 +6,6 @@ const Settings: React.FC = () => {
       <h1>Settings</h1>
       <p>ここでユーザーの設定を変更することができます。</p>
       {/* 設定項目を追加してください */}
-        <MenuBar />
     </div>
   );
 };
