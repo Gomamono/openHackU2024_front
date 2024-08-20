@@ -1,4 +1,4 @@
-export function Password_input(props) {
+export function passwordInput(props) {
     const { todoText, onChange, onClickAdd, disabled } = props;
     return (
       <>
@@ -15,4 +15,4 @@ export function Password_input(props) {
     );
   }
 
-  export default Password_input;
+  export default passwordInput;
